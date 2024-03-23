@@ -3,14 +3,17 @@ import React from 'react';
 const Body = () => {
     return (
         <div>
+            <img class='h-96 w-96 rounded' src={require('./static/0.png')} alt='Kazuha' />
             <h1 className="text-4xl">Jassu</h1>
             <h4>Asia Server</h4>
             <h4>AR 58</h4>
-            <h4>UID846329903
-
+            <div class="flex shadow-sm">
+                <p class="py-1 justify-center items-center indent-2 rounded-s-lg focus:outline-none">
+                    UID846329903 &nbsp
+                </p>
                 <button
                     class="py-1 rounded-e-lg text-white bg-green-300 flex justify-center items-center w-10 h-10"
-                    onClick={() => { navigator.clipboard.writeText('846329903') }}>
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -39,7 +42,8 @@ const Body = () => {
                         ></path>
                     </svg>
                 </button>
-            </h4>
+            </div>
+
             <div>
                 <h2>Summary</h2>
                 <div className="box">
