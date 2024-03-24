@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Character(props) {
-    
+function Character({ name, image, onMouseEnter }) {
     return (
-        <div >
-            <img className="bg-[#bb7c45] cover h-full w-full" src={props.image} alt={props.name} />
+        <div onMouseEnter={onMouseEnter}>
+            <img className="bg-[#bb7c45] cover h-full w-full" src={image} alt={name} />
         </div>
     );
 }
