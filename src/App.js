@@ -7,20 +7,20 @@ import { useState } from "react";
 function App() {
   const [val, setVal] = useState(0);
 
-  const fullImages = [
-    require('./static/full/0.webp'),
-    require('./static/full/1.webp'),
-    require('./static/full/2.webp'),
-    require('./static/full/3.webp'),
-    require('./static/full/4.webp'),
-    require('./static/full/5.webp'),
-    require('./static/full/6.webp'),
-    require('./static/full/7.webp'),
-    require('./static/full/8.webp'),
-    require('./static/full/9.webp'),
-    require('./static/full/10.webp'),
-    require('./static/full/11.webp'),
-    require('./static/full/12.webp'),
+  const characterNames = [
+    "Kazuha",
+    "Diluc",
+    "Jean",
+    "Tartaglia",
+    "Scaramouche",
+    "Nahida",
+    "Arataki Itto",
+    "Hu Tao",
+    "Mona",
+    "Kamisato Ayaka",
+    "Raiden Shogun",
+    "Yoimiya",
+    "Zhongli"
   ];
 
   const handleCharacterHover = (value) => {
@@ -36,17 +36,17 @@ function App() {
         <h1 className="text-white text-6xl text-center p-6">My Characters</h1>
         <div className="flex">
           <div className="grid grid-cols-4 gap-4 w-[70%] ">
-            {[...Array(13).keys()].map((index) => (
+            {characterNames.map((name, index) => (
               <Character
                 key={index}
-                name={`Character ${index}`}
+                name={name}
                 image={require(`./static/${index}.png`)}
                 onMouseEnter={() => handleCharacterHover(index)}
               />
             ))}
           </div>
           <div className="w-[26%] ml-4 h-full">
-            <Full image={fullImages[val]} />
+            <Full image={require(`./static/full/${val}.webp`)} name={characterNames[val]} />
           </div>
         </div>
       </div>
