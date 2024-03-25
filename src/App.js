@@ -51,7 +51,7 @@ function App() {
   };
 
   return (
-    <div className="h-full bg-black">
+    <div className="h-[100vh] bg-black">
       <div  style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', width: '100%' }}>
         <Body/>
       </div>
