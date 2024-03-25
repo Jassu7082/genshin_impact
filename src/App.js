@@ -51,11 +51,11 @@ function App() {
   };
 
   return (
-    <div>
-      <div style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', width: '100%' }}>
+    <div className="h-full bg-black">
+      <div  style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', width: '100%' }}>
         <Body/>
       </div>
-      <div className="bg-black">
+      <div className="bg-black ">
         <h1 className="text-white text-6xl text-center p-6">My Characters</h1>
         <div className="flex">
           <div className="grid grid-cols-4 gap-4 w-[70%] ">
