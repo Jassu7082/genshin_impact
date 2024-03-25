@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/genshin_impact/static/js/main.ed300902.js",
+    "main.css": "/genshin_impact/static/css/main.a68718c1.css",
+    "main.js": "/genshin_impact/static/js/main.b0c73a81.js",
     "static/media/bg.webp": "/genshin_impact/static/media/bg.337243ce62ae7486316b.webp",
     "static/media/10.webp": "/genshin_impact/static/media/10.def6990f2a22cd44d21b.webp",
     "static/media/3.webp": "/genshin_impact/static/media/3.4c874062215ce07a83b5.webp",
@@ -28,10 +29,17 @@
     "static/media/12.png": "/genshin_impact/static/media/12.9ca765336c809f76067b.png",
     "static/media/2.png": "/genshin_impact/static/media/2.6e18566a7cccdd9dd902.png",
     "static/media/9.png": "/genshin_impact/static/media/9.837d50ac874bbd094627.png",
+    "static/media/anemo.jpg": "/genshin_impact/static/media/anemo.819040c5fdb81c459fee.jpg",
+    "static/media/hydro.jpg": "/genshin_impact/static/media/hydro.4a4644b3bcf2fd39ae32.jpg",
+    "static/media/cryo.jpg": "/genshin_impact/static/media/cryo.521ded04b29b5e5df888.jpg",
+    "static/media/electro.jpg": "/genshin_impact/static/media/electro.75fe0efa00ff35766e92.jpg",
+    "static/media/geo.jpg": "/genshin_impact/static/media/geo.5274db53802f769066eb.jpg",
     "index.html": "/genshin_impact/index.html",
-    "main.ed300902.js.map": "/genshin_impact/static/js/main.ed300902.js.map"
+    "main.a68718c1.css.map": "/genshin_impact/static/css/main.a68718c1.css.map",
+    "main.b0c73a81.js.map": "/genshin_impact/static/js/main.b0c73a81.js.map"
   },
   "entrypoints": [
-    "static/js/main.ed300902.js"
+    "static/css/main.a68718c1.css",
+    "static/js/main.b0c73a81.js"
   ]
 }
