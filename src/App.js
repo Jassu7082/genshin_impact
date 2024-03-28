@@ -2,7 +2,7 @@ import Character from "./charcter";
 import Body from "./body";
 import bgImage from './static/bg.webp';
 import Full from "./full";
-import { useState ,useEffect} from "react";
+import { useState } from "react";
 import VisionDrop from "./visiondrop";
 import anemo from './static/vision/anemo.jpg';
 import pyro from './static/vision/pyro.jpg';
@@ -11,6 +11,7 @@ import cryo from './static/vision/cryo.jpg';
 import electro from './static/vision/electro.jpg';
 import dendro from './static/vision/dendro.jpg';
 import geo from './static/vision/geo.jpg';
+import Slider from "./slider";
 
 function App() {
   const [val, setVal] = useState(0);
@@ -51,7 +52,8 @@ function App() {
   };
 
   return (
-    <div className="h-[100vh] bg-black">
+    <div className=" bg-black">
+      <Slider />
       <div  style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', width: '100%' }}>
         <Body/>
       </div>
@@ -77,6 +79,7 @@ function App() {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
