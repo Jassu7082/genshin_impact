@@ -1,8 +1,14 @@
 {
   "files": {
     "main.css": "/genshin_impact/static/css/main.a68718c1.css",
-    "main.js": "/genshin_impact/static/js/main.3dd4af6d.js",
+    "main.js": "/genshin_impact/static/js/main.64995fca.js",
+    "static/media/3.png": "/genshin_impact/static/media/3.158daf77f33e4f893c26.png",
+    "static/media/0.jpg": "/genshin_impact/static/media/0.5e0058f495e441f712b6.jpg",
+    "static/media/2.jpg": "/genshin_impact/static/media/2.cfaf2fc7eaf3dc28ae08.jpg",
+    "static/media/4.png": "/genshin_impact/static/media/4.104bfb5dbae7a41ea8ad.png",
+    "static/media/1.jpg": "/genshin_impact/static/media/1.f7032abea5fa5447de1a.jpg",
     "static/media/bg.webp": "/genshin_impact/static/media/bg.337243ce62ae7486316b.webp",
+    "static/media/5.jpg": "/genshin_impact/static/media/5.bbbea5f5a572ae4ffbff.jpg",
     "static/media/10.webp": "/genshin_impact/static/media/10.def6990f2a22cd44d21b.webp",
     "static/media/3.webp": "/genshin_impact/static/media/3.4c874062215ce07a83b5.webp",
     "static/media/4.webp": "/genshin_impact/static/media/4.1e65b515d720c14e2735.webp",
@@ -17,13 +23,11 @@
     "static/media/8.webp": "/genshin_impact/static/media/8.d30ceb42efd441a2a803.webp",
     "static/media/2.webp": "/genshin_impact/static/media/2.56828eebce4bb0bd0ee8.webp",
     "static/media/1.webp": "/genshin_impact/static/media/1.c954196e4b30de69ad87.webp",
-    "static/media/3.png": "/genshin_impact/static/media/3.158daf77f33e4f893c26.png",
     "static/media/6.png": "/genshin_impact/static/media/6.f6ba97295734b47e0fab.png",
     "static/media/7.webp": "/genshin_impact/static/media/7.7a1a1d7ea01c7fe8965e.webp",
     "static/media/10.png": "/genshin_impact/static/media/10.7c09de8f7eeb9dd5de1d.png",
     "static/media/11.png": "/genshin_impact/static/media/11.2bdd8a8364da0abd363a.png",
     "static/media/1.png": "/genshin_impact/static/media/1.605bb2960e34d62ec9d2.png",
-    "static/media/4.png": "/genshin_impact/static/media/4.104bfb5dbae7a41ea8ad.png",
     "static/media/7.png": "/genshin_impact/static/media/7.d323ab005dc6d053e07d.png",
     "static/media/0.png": "/genshin_impact/static/media/0.d9cb5ed05aed4c9cbc91.png",
     "static/media/12.png": "/genshin_impact/static/media/12.9ca765336c809f76067b.png",
@@ -36,10 +40,10 @@
     "static/media/geo.jpg": "/genshin_impact/static/media/geo.5274db53802f769066eb.jpg",
     "index.html": "/genshin_impact/index.html",
     "main.a68718c1.css.map": "/genshin_impact/static/css/main.a68718c1.css.map",
-    "main.3dd4af6d.js.map": "/genshin_impact/static/js/main.3dd4af6d.js.map"
+    "main.64995fca.js.map": "/genshin_impact/static/js/main.64995fca.js.map"
   },
   "entrypoints": [
     "static/css/main.a68718c1.css",
-    "static/js/main.3dd4af6d.js"
+    "static/js/main.64995fca.js"
   ]
 }
